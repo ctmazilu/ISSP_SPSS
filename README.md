@@ -1,7 +1,7 @@
 # Univariate and Bivariate Analysis of International Social Survey Program (ISSP) analysed in Statistical Package for the Social Sciences 
 
 # Introduction
-Using the ISSP (2024) for Social Inequality I-V – Cumulation in Great Britain we can analyse the relationship between education, culture and social class over time, from 1987 to 2019. SPSS can prove as a statistical tool to assit answering the research question: *Both education systems and culture are tools for upper class domination of the lower classes, as Bourdieu asserts. How convincing is this claim in Britain today?*
+Using the ISSP (2024)[^1] for Social Inequality I-V – Cumulation in Great Britain we can analyse the relationship between education, culture and social class over time, from 1987 to 2019. SPSS can prove as a statistical tool to assit answering the research question: *Both education systems and culture are tools for upper class domination of the lower classes, as Bourdieu asserts. How convincing is this claim in Britain today?*
 
 
 ## Index
@@ -30,7 +30,7 @@ Using the ISSP (2024) for Social Inequality I-V – Cumulation in Great Britain 
 
 ## Rationale
 
-The claim that the education system and class-based inequality are tightly bound has been repeatedly proven in Sociology of Education (Giddens, 2021:585). The French Sociologist, Pierre Bourdieu (1930 – 2002) used empirical data combined with phenomenological influences to research the connection between the upper classes domination over lower classes to investigate culture and education as mechanisms of domination. This essay will examine the extent to which Bourdieu’s claim is applicable to the current British education system. The following paragraphs establish how *cultural reproduction* in the *field* of education favours the *habitus* of individuals with high *cultural capital*. Further it will discuss how this is reinforced by *symbolic violence* against individuals with low cultural capital resulting in the transference of the undervalued cultural capital through habitus generationally. There are limitations to Bourdieu’s framework when using it directly to research Britain today, thus recent research has adapted his concepts and methodology to fit the context of increasing immobility and a new class system.
+The claim that the education system and class-based inequality are tightly bound has been repeatedly proven in Sociology of Education (Giddens, 2021:585). The French Sociologist, Pierre Bourdieu (1930 – 2002) used empirical data combined with phenomenological influences to research the connection between the upper classes domination over lower classes to investigate culture and education as mechanisms of domination. This essay will examine the extent to which Bourdieu’s claim is applicable to the current British education system. The following paragraphs establish how [*cultural reproduction*](#cultural-reproduction) in the [*field*](#field) of education favours the [*habitus*](#habitus) of individuals with high [*cultural capital*](#Capital:-economic,-social-&-cultural). Further it will discuss how this is reinforced by *symbolic violence* against individuals with low cultural capital resulting in the transference of the undervalued cultural capital through habitus generationally. There are limitations to Bourdieu’s framework when using it directly to research Britain today, thus recent research has adapted his concepts and methodology to fit the context of increasing immobility and a new class system.
 
 ## Theorectical Background 
 
@@ -167,7 +167,7 @@ Conducted relevent bivariate descriptive statistics, find more infromation in th
 > 
 
 ## References
-ISSP Research Group (2024). International Social Survey Programme: Social Inequality I-V Cumulation. GESIS, Cologne. ZA8790 Data file Version 1.0.0, [https://doi.org/10.4232/1.14226.](https://doi.org/10.4232/1.14226.)
+[^1] ISSP Research Group (2024). International Social Survey Programme: Social Inequality I-V Cumulation. GESIS, Cologne. ZA8790 Data file Version 1.0.0, [https://doi.org/10.4232/1.14226.](https://doi.org/10.4232/1.14226.)
 
 Andrews, J. & Robinson, D. & Hutchinson, J. (2017) Closing the Gap? Trends in Educational 
 Attainment and Disadvantage. Education Policy Institute. Available at: https://epi.org.uk/publications-and-research/closing-gap-trends-educational-attainment-disadvantage/ 
