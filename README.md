@@ -56,8 +56,8 @@ To further support his claim, Bourdieu complements macro field theory with a mic
 | Position Variable | name |Variable label | ZA1680(1987) | ZA2310 (1992) |ZA3430 (1999) | ZA5400 (2009) |ZA7600(2019) 
 |-------|---------------|---|---|---|---|---|---|
 | 10  | v1 |  abcde: Get ahead: How important is coming from a wealthy family?    |v4|v4|v4|v6| v1|
-| 11  | v2 |  abde: Get ahead: How important is having well-educated parents?  |v4|v4|v4|v6| v1|
-| 12  | v3 |  abde: Get ahead: How important is having a good education yourself? |v4|v4|v4|v6| v1|
+| 11  | v2 |  abde: Get ahead: How important is having well-educated parents?  |v5|v5|-|v7| v2|
+| 12  | v3 |  abde: Get ahead: How important is having a good education yourself? |v6|v6|-|v8| v3|
 | 16  | v7 |  abcde: Get ahead: How important is knowing the right people?   |v4|v4|v4|v6| v1|
 | 29 | v20 |  abce: Inequality continues to exist because it benefits the rich and powerful  |v21|v21|v9|-| v64|
 | 68  | v59 | cd: About how many books around family's house when R <14-15-16> years old?|-|-|v67|v61|-|
