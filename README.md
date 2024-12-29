@@ -22,11 +22,13 @@ Using the ISSP (2024)[^1] for Social Inequality I-V – Cumulation in Great Brit
   
 ## Reseach Question
 
-**RQ1**: Is there a relationship between economic capital (v1) and social class (v60)? 
-**RQ2**: Is there a relationship between culturual capital (v59) and social class (v60)?
-**RQ3**: Is there a relationship between social capital (v7) and social class (v60)?
-**RQ4**: Is there a relationship between education systems (v2, v3) and social class (v60)? 
-**RQ5**: Are education and culture tools for upper class domination of the lower classes (v20, v60)? 
+**RQ1**: Is there a relationship between culturual capital (v59) and social class (v60)?
+**RQ2**: Is there a relationship between education systems (v2, v3) and social class (v60)? 
+**RQ3**: Are education and culture tools for upper class domination of the lower classes (v20, v60)? 
+
+Limtations: due to time contraints the affect of economic and social capital were inaccessable, however future studies should look into the relationship between these variables to draw a fuller picture. 
+**RQ4**: Is there a relationship between economic capital (v1) and social class (v60)? 
+**RQ5**: Is there a relationship between social capital (v7) and social class (v60)?
 
 ## Rationale
 
@@ -52,6 +54,25 @@ To further support his claim, Bourdieu complements macro field theory with a mic
 
 ## Hypothesis 
 
+Both variables are *ordinal* therefore a *crosstabulation* will be conducted. It could go both ways, social class could influence education and culture;education and culture could influence social class.
+
+> **Independent variables:** v2, v3, v20, v59
+> 
+> **Dependent variable:** v60
+
+**Null Hypothesis H0:** There is no significant relationship economic capital educational systems and culture (v2, v3, v20, v59) and social class (v60).
+**Alternative Hypothesis H1:** There is a significant relationship between educational systems and culture (v2, v3, v20, v59) and social class (v60).
+
+# Data Description
+I am using Social Inequality I-V – Cumulation (ISSP, 2024), the unit of analysis is ‘individuals’ in Great Britain. The sample size of the data set is 157446. There are 106 variables. 
+
+### *Table 2: Participation in ISSP Social Inequality: countries, country codes and modules*
+| Value | country | c_sample | 1987 | 1992 | 1999 | 2009 | 2019 |
+|-------|---------------|---|---|---|---|---|---|
+| Great Britain   | 826 |  82601     |X|X|X|X|X|
+
+## Variable description 
+
 ### *Table 1: Variable correspondence table*
 | Position Variable | name |Variable label | ZA1680(1987) | ZA2310 (1992) |ZA3430 (1999) | ZA5400 (2009) |ZA7600(2019) 
 |-------|---------------|---|---|---|---|---|---|
@@ -63,93 +84,44 @@ To further support his claim, Bourdieu complements macro field theory with a mic
 | 68  | v59 | cd: About how many books around family's house when R <14-15-16> years old?|-|-|v67|v61|-|
 | 69  | v60 | abcde: Which social class would you say you belong to? |v100|v125|CLASS|v66| v61|
 
+1. v60
 
-These variables were chosen as they show across all years in the data. v7 can be used to measure social capital, while v1 can be used to 
-
-------------------------------
-
-Both variables are *ordinal* therefore a *crosstabulation* will be conducted. It could go both ways, democracy could influence womenrights;womenrights could influence democracy.
-
-> **Independent variable:** democracy
-> 
-> **Dependent variable:** Social Class
-
-**Null Hypothesis H0:** There is no significant relationship economic capital (v1) and social class (v60).
-**Alternative Hypothesis H1:** There is a significant relationship between economic capital (v1) and social class (v60).
-
-# Data Description
-I am using Social Inequality I-V – Cumulation (ISSP, 2024), the unit of analysis is ‘individuals’ in Great Britain. The sample size of the data set is ----. There are --- variables. 
-
-### *Table 2: Participation in ISSP Social Inequality: countries, country codes and modules*
-| Value | country | c_sample | 1987 | 1992 | 1999 | 2009 | 2019 |
-|-------|---------------|---|---|---|---|---|---|
-| Great Britain   | 826 |  82601     |X|X|X|X|X|
-
-## Variable description 
-
-1. Social Class
-
-> **Variable Name:** Social Class (variable 60)
-
-**Variable label:** 
-
-**Value Label:** (negative values are not used in the analysis) 
-
-### Table 1
-
-| Value | Label         |
-|-------|---------------|
-| 1     | Very Good     |
-| 2     | Fairly Good   |
-| 3     | Fairly Bad    |
-| 4     | Very Bad      |
-
-**Value Recoded:** Does not need recoding due to the variables already capturing the essential data points necessary to conduct a bivariate analysis.
------------
-2. Womens Rights
-
-#### **Variable Name:** womenrights (variable 130)
-
-**Variable Label:** Democracy: Women have the same rights as men. Is this a essential characteristic of democracy?
+**Variable Name:** v60
 
 **Level of Measurement:** Ordinal
 
-**Value Label:** (negative values are not used in the analysis, needs recoded see next section.)
+**Variable label:** abcde: Which social class would you say you belong to?
 
-### Table 2.1
+### *Table 3: Value Label, negative values are not used in the analysis*
+
+| Value | Label         |
+|-------|---------------|
+| 1    | Lower class / Poor / Bottom    |
+| 2     | Working Class   |
+| 3     |Lower middle class / Upper working class   |
+| 4     | Middle class      |
+| 5     | Upper middle class      |
+| 6     | Upper class      |
+
+**Value Recoded:** Does not need recoding due to the variables already capturing the essential data points necessary to conduct a bivariate analysis.
+
+2. Womens Rights
+
+#### **Variable Name:** v2
+
+**Variable Label:** abde: Get ahead: How important is having well-educated parents?
+
+**Level of Measurement:** Ordinal
+
+### *Table 4: Value Label, negative values are not used in the analysis*
 
 | Value | Label                                                         | 
 |-------|---------------------------------------------------------------|
-| 0     | (It is against democracy 1 (spontaneous))                     | 
-| 1     | (Not an essential characteristic of democracy)                | 
-| 2     | 2                                                              | 
-| 3     |  3                                                             | 
-| 4     |  4                                                             | 
-| 5     |  5                                                             | 
-| 6     |  6                                                             | 
-| 7     |  7                                                             | 
-| 8     |  8                                                             | 
-| 9     |   9                                                            | 
-| 10    | (An essential characteristic of democracy)                    | 
-
-**Value Recoded:** womenrights was recoded from 10 categories into 5 categories (Not essential, Somewhat essential,
-Moderately essential, Very essential, An essential characteristic). This was done to give a more concise view of the answers, however not distilling it into too few categories which would lose nuance.
-
-### Table 2.2
-
-| Old Value | Label                                              | New Value | Label                                      |
-|-------|---------------------------------------------------------------|-----|--------------------------------------------|
-| 0     | (It is against democracy 1 (spontaneous))                     | 1   | Not essential                              |
-| 1     | (Not an essential characteristic of democracy)                | 1   | Not essential                              |
-| 2     | 2                                                              | 2   | Somewhat essential                        |
-| 3     |  3                                                             | 2   | Somewhat essential                        |
-| 4     |  4                                                             | 2   | Moderately essential                       |
-| 5     |  5                                                             | 3   | Moderately essential                       |
-| 6     |  6                                                             | 3   | Moderately essential                       |
-| 7     |  7                                                             | 4   | Very essential                             |
-| 8     |  8                                                             | 4   | Very essential                             |
-| 9     |   9                                                            | 5   | An essential characteristic               |
-| 10    | (An essential characteristic of democracy)                    | 5   | An essential characteristic of democracy   |
+| 0     | Essential                   | 
+| 1     | Very important             | 
+| 2     | Fairly important                                                         | 
+| 3     |  Not very important                                                            | 
+| 4     |  Not important at all                                                          | 
 
 
 # Analysis
@@ -164,7 +136,7 @@ Conducted relevent bivariate descriptive statistics, find more infromation in th
 
 # Conclusion
 
-> 
+> To conclude, this evidence has repeatedly found that the upper class have advantages which, due to low habitus and low cultural capital, the lower classes cannot access. Cultural reproduction in the education system can explain how income inequality causes intergenerational immobility. Further, Bourdieu’s theory of taste has flaws, yet symbolic violence re-establishes importance in cultural reproduction.
 
 ## References
 [^1] ISSP Research Group (2024). International Social Survey Programme: Social Inequality I-V Cumulation. GESIS, Cologne. ZA8790 Data file Version 1.0.0, [https://doi.org/10.4232/1.14226.](https://doi.org/10.4232/1.14226.)
